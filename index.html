@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8 />
+<!-- *** HTML Template Meta *** -->
+<title>Restaurant Promotion | HTML Digital Signage Template</title>
+<meta name="description" content="The Restaurant Promotion Template was created to display a series of animated promotions that can be modified to accommodate your specific message." />
+
+<!-- Schema.org markup for Google+ -->
+<meta itemprop="name" content="Restaurant Promotion">
+<meta itemprop="description" content="The Restaurant Promotion Template was created to display a series of animated promotions that can be modified to accommodate your specific message.">
+<meta itemprop="image" content="http://goo.gl/KXsGHg">
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@RiseVision">
+<meta name="twitter:title" content="Restaurant Promotion">
+<meta name="twitter:description" content="The Restaurant Promotion Template was created to display a series of animated promotions that can be modified to accommodate your specific message.">
+<meta name="twitter:image:src" content="http://goo.gl/KXsGHg">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="Restaurant Promotion" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://commondatastorage.googleapis.com/risemedialibrary-395c64e5-2930-460b-881e-009aabb157df/content-templates/restaurant-promotion/restaurant-promotion.html" />
+<meta property="og:image" content="http://goo.gl/KXsGHg" />
+<meta property="og:description" content="The Restaurant Promotion Template was created to display a series of animated promotions that can be modified to accommodate your specific message." />
+
+<!-- Style Sheet -->
+<link rel="stylesheet" type="text/css" href="style.css">
+    
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="http://rise-vision.github.io/content-templates/favicon.ico" />
+
+<!-- Font -->
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!--Web Components-->    
+<script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+<link rel="import" href="bower_components/google-sheets/google-sheets.html">
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+</head>
+<body>
+
+	<div class="main-wrapper">
+
+		 <!-- Published Spreadsheet Details -->
+			<google-sheets id="sheet" 
+			               key="1orUHfkuPKI8alfmN7KmZbIGOoOWEWsker4LtjEOzb5M"
+			               gid="0"
+			               rows="{{rows}}"
+			               published>
+			</google-sheets>
+
+		<!--Text Transition-->  
+<div  id="content">
+
+<!--Information collected from google sheet-->
+    <main layout horizontal>
+
+
+         <section>
+
+             <template id="rows" bind>
+
+<!-- Information from Spreadsheet Rows -->
+                <template repeat="{{rows}}">
+                    <div class="slides">
+                        <h2 class="headline-1">{{gsx$header.$t}}</h2>
+                        <h2 class="headline-2">{{gsx$subheader.$t}}</h2>
+                        <p class="body-text">{{gsx$body.$t}}</p>
+                    </div>
+                 </template>
+            </template>
+
+        </section>
+
+    </main>
+</div>
+
+		
+		<div class="image-1">
+		</div>
+		
+		<div class="image-2">
+		</div>
+		
+		<div class="image-3">
+		</div>
+
+		<div class="logo">
+		</div>
+
+		<div class="logo-onsite">
+		</div>
+
+		<a href="">
+			<div class="rise-logo">
+			</div>
+		</a>
+
+		<!--Github Icon-->
+		<div class="github">
+		    <a type="button" class="gitbtn" href="http://github.com/Rise-Vision/content-templates/tree/master/events" target="_blank">Contribute <i class="fa fa-github fa-lg "></i></a>
+		</div>	
+
+	</div> <!-- close main-wrapper -->
+	
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>
