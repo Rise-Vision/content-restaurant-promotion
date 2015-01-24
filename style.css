@@ -233,7 +233,7 @@ body {
 
 #content .slides:nth-of-type(1) .headline-1{
 	color:#B5BD00;
-	font-size: 70px;
+	font-size: 7vw;
 	line-height: 1;
 	margin: 0;
 	margin-bottom: 2vh;
@@ -242,7 +242,7 @@ body {
 
 #content .slides:nth-of-type(1) .headline-2{
 	color:#C11545;
-	font-size: 130px;
+	font-size: 11vw;
 	line-height: 1.1;
 	width:60%;
 	margin: 0;
@@ -252,7 +252,7 @@ body {
 
 #content .slides:nth-of-type(1) .body-text {
 	color:#636363;
-	font-size: 60px;
+	font-size: 5vw;
 	font-weight: 300;
 	line-height: 1.1;
 	color:#777;
@@ -275,7 +275,7 @@ body {
 #content .slides:nth-of-type(2) .headline-1{
 	color:#B5BD00;
 	display: inline-block;
-	font-size: 80px;
+	font-size: 6vw;
 	font-weight: 400;
 	line-height: 1;
 	margin: 0;
@@ -286,7 +286,7 @@ body {
 #content .slides:nth-of-type(2) .headline-2{
 	display: inline-block;
 	color:#C11545;
-	font-size: 80px;
+	font-size: 6vw;
 	font-weight: 400;
 	line-height: 1;
 	margin: 0;
@@ -296,12 +296,11 @@ body {
 }
 
 #content .slides:nth-of-type(2) .body-text {
-	font-size: 43px;
+	font-size: 3.65vw;
 	font-weight: 300;
 	line-height: 1.1;
 	color:#636363;
 	margin: 0;
-	margin-top: 1vh;
 	padding: 0;
 	width:100%;
 }
@@ -317,7 +316,7 @@ body {
 
 #content .slides:nth-of-type(3) .headline-1{
 	color:#C11545;
-	font-size: 80px;
+	font-size: 8vw;
 	font-weight: 700;
 	line-height: 1.1;
 	margin: 0;
@@ -326,7 +325,7 @@ body {
 
 #content .slides:nth-of-type(3) .headline-2 {
 	color:#B5BD00;
-	font-size: 80px;
+	font-size: 8vw;
 	font-weight: 700;
 	width:60%;
 	line-height: 1.1;
@@ -336,7 +335,7 @@ body {
 
 #content .slides:nth-of-type(3) .body-text {
 	color:#C11545;
-	font-size: 80px;
+	font-size: 7vw;
 	font-weight: 700;
 	line-height: 1.1;
 	margin: 0;
@@ -375,7 +374,7 @@ body {
 	background-image: url(images/rise-icon.png);
 	background-size: 100% 100%;
 	opacity:.5;
-	width:5%;
+	width:4%;
 	height:5%;
 	left:5%;
 	top:90%;
