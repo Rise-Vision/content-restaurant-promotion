@@ -124,11 +124,11 @@ Image Animation Controls
 	5% {opacity:1;}
 	29% {opacity:1; right:4vh; bottom:4vh;}
 	30% {opacity:0; right:4vh; bottom:4vh;}
-	31% {right:4vh; bottom:115vh;}
+	31% {right:4vh; bottom:89vh;}
 	32% {opacity:0;}
 	33% {opacity:1;}
 	98% {opacity:1;}
-	99% {opacity:0; right:4vh; bottom:115vh;}
+	99% {opacity:0; right:4vh; bottom:89vh;}
 	100% {opacity:0; right:4vh; bottom:4vh;}
 }
 
@@ -137,11 +137,11 @@ Image Animation Controls
 	5% {opacity:1;}
 	29% {opacity:1; right:4vh; bottom:4vh;}
 	30% {opacity:0;right:4vh; bottom:4vh;}
-	31% {right:4vh; bottom:115vh;}
+	31% {right:4vh; bottom:89vh;}
 	33% {opacity:0;}
 	35% {opacity:1;}
 	98% {opacity:1;}
-	99% {opacity:0; right:4vh; bottom:115vh;}
+	99% {opacity:0; right:4vh; bottom:89vh;}
 	100% {opacity:0; right:4vh; bottom:4vh;}
 }
 
@@ -150,8 +150,8 @@ Image Animation Controls
 
 @-webkit-keyframes onsite-animation{
 	0% {opacity:0;}
-	34% {opacity:0;}
-	35% {opacity:1;}
+	32% {opacity:0;}
+	33% {opacity:1;}
 	60% {opacity:1;}
 	61% {opacity: 0;}
 	100% {opacity:0;}
@@ -159,8 +159,8 @@ Image Animation Controls
 
 @keyframes onsite-animation{
 	0% {opacity:0;}
-	34% {opacity:0;}
-	35% {opacity:1;}
+	32% {opacity:0;}
+	33% {opacity:1;}
 	60% {opacity:1;}
 	61% {opacity: 0;}
 	100% {opacity:0;}
@@ -226,7 +226,7 @@ body {
 
 #content .slides:nth-of-type(1){
 	opacity:1;
-	top: 15vh;
+	top: 12vh;
 	-webkit-animation:text-1-animation 30s ease-out infinite;
 	animation:text-1-animation 30s ease-out infinite;
 }
@@ -242,7 +242,7 @@ body {
 
 #content .slides:nth-of-type(1) .headline-2{
 	color:#C11545;
-	font-size: 11vw;
+	font-size: 10vw;
 	line-height: 1.1;
 	width:60%;
 	margin: 0;
@@ -301,6 +301,7 @@ body {
 	line-height: 1.1;
 	color:#636363;
 	margin: 0;
+	margin-top: 1vh;
 	padding: 0;
 	width:100%;
 }
@@ -309,14 +310,14 @@ body {
 
 #content .slides:nth-of-type(3){
 	opacity:0;
-	top: 20vh;
+	top: 16vh;
 	-webkit-animation:text-3-animation 30s ease-out infinite;
 	animation:text-3-animation 30s ease-out infinite;
 }
 
 #content .slides:nth-of-type(3) .headline-1{
 	color:#C11545;
-	font-size: 8vw;
+	font-size: 7vw;
 	font-weight: 700;
 	line-height: 1.1;
 	margin: 0;
@@ -325,7 +326,7 @@ body {
 
 #content .slides:nth-of-type(3) .headline-2 {
 	color:#B5BD00;
-	font-size: 8vw;
+	font-size: 7vw;
 	font-weight: 700;
 	width:60%;
 	line-height: 1.1;
@@ -335,7 +336,7 @@ body {
 
 #content .slides:nth-of-type(3) .body-text {
 	color:#C11545;
-	font-size: 7vw;
+	font-size: 6vw;
 	font-weight: 700;
 	line-height: 1.1;
 	margin: 0;
@@ -361,7 +362,7 @@ body {
 	width:10vw;
 	height:10vw;
 	position: absolute;
-	right:10vw;
+	right:15vw;
 	top:52vh;
 	background-image: url(images/logo-onsite.png);
 	background-size: 100% 100%;
@@ -373,13 +374,14 @@ body {
 .rise-logo {
 	background-image: url(images/rise-icon.png);
 	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 	opacity:.5;
-	width:4%;
+	width:3%;
 	height:5%;
 	left:5%;
 	top:90%;
 	z-index:5;
-	margin-left:-1%;
 	position:absolute;
 	z-index:5;
 }
@@ -394,7 +396,7 @@ body {
 	 top:90%;
 	 z-index:4;
 	 margin-left:1%;
-	 margin-top: 1%;
+	 margin-top: 0.5%;
 	 position:absolute;
 	 z-index:4;
 }
@@ -403,7 +405,7 @@ body {
 	color:white;
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
 	text-decoration: none;
-	font-size:25px;
+	font-size:2vw;
 	opacity:.5;
 	z-index:4;
 }
