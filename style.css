@@ -25,7 +25,9 @@ Image Animation Controls
 
 @-webkit-keyframes text-1-animation{
 	0% {opacity:0;}
-	4% {opacity:1;}
+	3% {opacity:0;transform:scale(1);}
+	4% {opacity:1;transform:scale(1.02);}
+	6% {transform:scale(1);}
 	27% {opacity:1;}
 	28% {opacity:0;}
 	100% {opacity:0;}
@@ -33,7 +35,9 @@ Image Animation Controls
 
 @keyframes text-1-animation{
 	0% {opacity:0;}
-	4% {opacity:1;}
+	3% {opacity:0;transform:scale(1);}
+	4% {opacity:1;transform:scale(1.02);}
+	6% {transform:scale(1);}
 	27% {opacity:1;}
 	28% {opacity:0;}
 	100% {opacity:0;}
@@ -63,8 +67,9 @@ Image Animation Controls
 
 @-webkit-keyframes text-2-animation{
 	0% {opacity:0;}
-	30% {opacity:0;}
-	34% {opacity:1;}
+	30% {opacity:0;top:103vh;}
+	34% {opacity:1;top:53vh;}
+	35% {top: 55vh;}
 	58% {opacity:1;}
 	59% {opacity:0;}
 	100% {opacity:0;}
@@ -72,8 +77,9 @@ Image Animation Controls
 
 @keyframes text-2-animation{
 	0% {opacity:0;}
-	30% {opacity:0;}
-	34% {opacity:1;}
+	30% {opacity:0;top:103vh;}
+	34% {opacity:1;top:53vh;}
+	35% {top: 55vh;}
 	58% {opacity:1;}
 	59% {opacity:0;}
 	100% {opacity:0;}
@@ -101,16 +107,18 @@ Image Animation Controls
 
 @-webkit-keyframes text-3-animation{
 	0% {opacity:0;}
-	61% {opacity:0;}
-	64% {opacity:1;}
+	61% {opacity:0;transform:scale(1);}
+	64% {opacity:1;transform:scale(1.02);}
+	65% {transform:scale(1);}
 	97% {opacity:1;}
 	98% {opacity:0;}
 }
 
 @keyframes text-3-animation{
 	0% {opacity:0;}
-	61% {opacity:0;}
-	64% {opacity:1;}
+	61% {opacity:0;transform:scale(1);}
+	64% {opacity:1;transform:scale(1.02);}
+	65% {transform:scale(1);}
 	97% {opacity:1;}
 	98% {opacity:0;}
 }
@@ -373,12 +381,13 @@ body {
 
 .rise-logo {
 	background-image: url(images/rise-icon.png);
-	background-size: 100% 100%;
+	background-size:50%;
+	background-repeat: no-repeat;
 	opacity:.5;
 	width:5%;
 	height:5%;
-	left:5%;
-	top:90%;
+	left:7%;
+	top:91%;
 	z-index:5;
 	margin-left:-1%;
 	position:absolute;
