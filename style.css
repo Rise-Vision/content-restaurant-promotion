@@ -67,9 +67,9 @@ Image Animation Controls
 
 @-webkit-keyframes text-2-animation{
 	0% {opacity:0;}
-	32% {opacity:0;top:100vh;}
-	34% {opacity:1;top:53vh;}
-	35% {top: 55vh;}
+	32% {opacity:0;top:100%;}
+	34% {opacity:1;top:52%;}
+	35% {top: 55%;}
 	58% {opacity:1;}
 	59% {opacity:0;}
 	100% {opacity:0;}
@@ -77,9 +77,9 @@ Image Animation Controls
 
 @keyframes text-2-animation{
 	0% {opacity:0;}
-	32% {opacity:0;top:100vh;}
-	34% {opacity:1;top:53vh;}
-	35% {top: 55vh;}
+	32% {opacity:0;top:100%;}
+	34% {opacity:1;top:52%;}
+	35% {top: 55%;}
 	58% {opacity:1;}
 	59% {opacity:0;}
 	100% {opacity:0;}
@@ -130,27 +130,27 @@ Image Animation Controls
 @-webkit-keyframes logo-animation{
 	0% {opacity:0;}
 	5% {opacity:1;}
-	29% {opacity:1; right:4vh; bottom:4vh;}
-	30% {opacity:0; right:4vh; bottom:4vh;}
-	31% {right:4vh; bottom:115vh;}
+	29% {opacity:1; right:4vh; bottom:5%;}
+	30% {opacity:0; right:4vh; bottom:5%;}
+	31% {right:4vh; bottom:88%;}
 	32% {opacity:0;}
 	33% {opacity:1;}
 	98% {opacity:1;}
-	99% {opacity:0; right:4vh; bottom:115vh;}
-	100% {opacity:0; right:4vh; bottom:4vh;}
+	99% {opacity:0; right:4vh; bottom:88%;}
+	100% {opacity:0; right:4vh; bottom:5%;}
 }
 
 @keyframes logo-animation{
 	0% {opacity:0;}
 	5% {opacity:1;}
-	29% {opacity:1; right:4vh; bottom:4vh;}
-	30% {opacity:0;right:4vh; bottom:4vh;}
-	31% {right:4vh; bottom:115vh;}
-	33% {opacity:0;}
-	35% {opacity:1;}
+	29% {opacity:1; right:4vh; bottom:5%;}
+	30% {opacity:0; right:4vh; bottom:5%;}
+	31% {right:4vh; bottom:88%;}
+	32% {opacity:0;}
+	33% {opacity:1;}
 	98% {opacity:1;}
-	99% {opacity:0; right:4vh; bottom:115vh;}
-	100% {opacity:0; right:4vh; bottom:4vh;}
+	99% {opacity:0; right:4vh; bottom:88%;}
+	100% {opacity:0; right:4vh; bottom:5%;}
 }
 
 
@@ -280,7 +280,7 @@ body {
 
 #content .slides:nth-of-type(2){
 	opacity:0;
-	top: 55vh;
+	top: 55%;
 	left:2vw;
 	-webkit-animation:text-2-animation 30s ease-out infinite;
 	animation:text-2-animation 30s ease-out infinite;
@@ -364,7 +364,7 @@ body {
 	height:5vw;
 	position: absolute;
 	right:4vh;
-	bottom:4vh;
+	bottom:5%;
 	background-image:url(images/logo-onthego.png);
 	background-size: 100% 100%;
 	z-index: 10;
