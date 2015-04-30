@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Restaurant Promotion Template was created to display a series of high impact animated promotions that can be easily modified to accommodate your specific message. A preview of the template can be seen here: http://commondatastorage.googleapis.com/risemedialibrary-395c64e5-2930-460b-881e-009aabb157df/content-templates/restaurant-promotion/restaurant-promotion.html
+The Restaurant Promotion Template was created to display a series of high impact animated promotions that can be easily modified to accommodate your specific message. A preview of the template can be seen here: http://rise-vision.github.io/content-restaurant-promotion/index.html
 
 ##Steps to run the events template:##
 
