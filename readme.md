@@ -21,6 +21,19 @@ The Restaurant Promotion Template was created to display a series of high impact
 
 ##Directions to modify the restaurant promotion template:##
 
+###Changing the text
+The slide text is displayed through the use of the google-sheets web component. To see an example of the layout, please see the example spreadsheet located here https://docs.google.com/spreadsheets/d/1orUHfkuPKI8alfmN7KmZbIGOoOWEWsker4LtjEOzb5M/edit#gid=0
+
+You can use your own public spreadsheet by creating a new spreadsheet in google sheets and then selecting 'Publish to the web..' from the File menu. 
+
+Once published, you will need to take copy the key for you spreadsheet which is the long string of letters and numbers found in the url. An example of this can be seen in the url for the example spreadsheet above. Once you have copied the key, please locate the following code in the events.html file and replace the example key with the key from your spreadsheet:
+
+```<google-sheets id="sheet" key="1WwSkJbyIH4EgVDni9eI65zK95MBv0R5c6JSVXsGEPiE" gid="0" rows="{{rows}}" published> </google-sheets>```
+
+In order to view a private spreadsheet, you will need to obtain an ID from https://console.developers.google.com. This is optional if accessing a public spreadsheet, and is currently set to 'sheet' in the above example.
+
+You can then edit the text within the cells of the spreadsheet and the changes will appear in the display.
+
 ####Changing the background image
 Open the style.css file and locate the following code for each of the 3 images. The background image can be changed by modifying the url information within the () following background-image to the path of your new logo:
 
