@@ -5,63 +5,75 @@ Image Animation Controls
 
 /*Image-1 timing*/
 
-@-webkit-keyframes image-1-animation{
-	0% {opacity:0;}
-	5% {opacity:1;}
-	29% {opacity:1;}
-	30% {opacity:0;}
-	100% {opacity:0;}
+@-webkit-keyframes image-1-animation {
+	0% {
+      opacity: 0;
+    }
+	5% 
+      {
+      opacity: 1;
+    }
+	29% {
+      opacity: 1;
+    }
+	30% {
+      opacity: 0;
+    }
+	100% {
+      opacity: 0;
+    }
 }
 
-@keyframes image-1-animation{
-	0% {opacity:0;}
-	5% {opacity:1;}
-	29% {opacity:1;}
-	30% {opacity:0;}
-	100% {opacity:0;}
-}
+
 
 /*Image-1 Text timing*/
 
-@-webkit-keyframes text-1-animation{
-	0% {opacity:0;}
-	4% {opacity:1;}
-	27% {opacity:1;}
-	28% {opacity:0;}
-	100% {opacity:0;}
+@-webkit-keyframes text-1-animation {
+	0% {
+      opacity: 0;
+    }
+	4% {
+      opacity: 1;
+    }
+	27% {
+      opacity: 1;
+    }
+	28% {
+      opacity: 0;
+    }
+	100% {
+      opacity: 0;
+    }
 }
 
-@keyframes text-1-animation{
-	0% {opacity:0;}
-	4% {opacity:1;}
-	27% {opacity:1;}
-	28% {opacity:0;}
-	100% {opacity:0;}
-}
 
 /*Image-2 timing*/
 
-@-webkit-keyframes image-2-animation{
-	0% {opacity:0;}
-	30% {opacity:0;}
-	35% {opacity:1;}
-	60% {opacity:1;}
-	61% {opacity:0;}
-	100% {opacity:0;}
+@-webkit-keyframes image-2-animation {
+	0% {
+      opacity: 0;
+    }
+	30% {
+      opacity: 0;
+    }
+	35% {
+      opacity: 1;
+    }
+	60% {
+      opacity: 1;
+    }
+	61% {
+      opacity: 0;
+    }
+	100% {
+      opacity: 0;
+    }
 }
 
-@keyframes image-2-animation{
-	0% {opacity:0;}
-	30% {opacity:0;}
-	35% {opacity:1;}
-	60% {opacity:1;}
-	61% {opacity:0;}
-	100% {opacity:0;}
-}
 
 /*Image-2 Text timing*/
 
-@-webkit-keyframes text-2-animation{
+@-webkit-keyframes text-2-animation {
 	0% {opacity:0;}
 	30% {opacity:0;}
 	34% {opacity:1;}
@@ -70,100 +82,131 @@ Image Animation Controls
 	100% {opacity:0;}
 }
 
-@keyframes text-2-animation{
-	0% {opacity:0;}
-	30% {opacity:0;}
-	34% {opacity:1;}
-	58% {opacity:1;}
-	59% {opacity:0;}
-	100% {opacity:0;}
-}
 
 /*Image-3 timing*/
 
-@-webkit-keyframes image-3-animation{
-	0% {opacity:0;}
-	61% {opacity:0;}
-	66% {opacity:1;}
-	99% {opacity:1;}
-	100% {opacity:0;}
+@-webkit-keyframes image-3-animation {
+	0% {
+      opacity: 0;
+    }
+	61% {
+      opacity: 0;
+    }
+	66% {
+      opacity: 1;
+    }
+	99% {
+      opacity: 1;
+    }
+	100% {
+      opacity: 0;
+    }
 }
 
-@keyframes image-3-animation{
-	0% {opacity:0;}
-	61% {opacity:0;}
-	66% {opacity:1;}
-	99% {opacity:1;}
-	100% {opacity:0;}
+@keyframes image-3-animation {
+	0% {
+      opacity: 0;
+    }
+	61% {
+      opacity: 0;
+    }
+	66% {
+      opacity: 1;
+    }
+	99% {
+      opacity: 1;
+    }
+	100% {
+      opacity: 0;
+    }
 }
 
 /*Image-3 Text timing*/
 
-@-webkit-keyframes text-3-animation{
-	0% {opacity:0;}
-	61% {opacity:0;}
-	64% {opacity:1;}
-	97% {opacity:1;}
-	98% {opacity:0;}
+@-webkit-keyframes text-3-animation {
+	0% {
+      opacity: 0;
+    }
+	61% {
+      opacity: 0;
+    }
+	64% {
+      opacity: 1;
+    }
+	97% {
+      opacity: 1;
+    }
+	98% {
+      opacity: 0;
+    }
 }
-
-@keyframes text-3-animation{
-	0% {opacity:0;}
-	61% {opacity:0;}
-	64% {opacity:1;}
-	97% {opacity:1;}
-	98% {opacity:0;}
-}
-
-
 
 /*Logo timing*/
 
-@-webkit-keyframes logo-animation{
-	0% {opacity:0;}
-	5% {opacity:1;}
-	29% {opacity:1; right:4vh; bottom:4vh;}
-	30% {opacity:0; right:4vh; bottom:4vh;}
-	31% {right:4vh; bottom:115vh;}
-	32% {opacity:0;}
-	33% {opacity:1;}
-	98% {opacity:1;}
-	99% {opacity:0; right:4vh; bottom:115vh;}
-	100% {opacity:0; right:4vh; bottom:4vh;}
-}
-
-@keyframes logo-animation{
-	0% {opacity:0;}
-	5% {opacity:1;}
-	29% {opacity:1; right:4vh; bottom:4vh;}
-	30% {opacity:0;right:4vh; bottom:4vh;}
-	31% {right:4vh; bottom:115vh;}
-	33% {opacity:0;}
-	35% {opacity:1;}
-	98% {opacity:1;}
-	99% {opacity:0; right:4vh; bottom:115vh;}
-	100% {opacity:0; right:4vh; bottom:4vh;}
+@-webkit-keyframes logo-animation {
+	0% {
+      opacity: 0;
+    }
+	5% {
+      opacity: 1;
+    }
+	29% {
+      opacity: 1; 
+      right: 4vh; 
+      bottom: 4vh;
+    }
+	30% {
+      opacity:0; 
+      right:4vh; 
+      bottom:4vh;
+    }
+	31% {
+      right:4vh; 
+      bottom:115vh;
+    }
+	32% {
+      opacity:0;
+    }
+	33% {
+      opacity:1;
+    }
+	98% {
+      opacity:1;
+    }
+	99% {
+      opacity:0; 
+      right:4vh; 
+      bottom:115vh;
+    }
+	100% {
+      opacity:0; 
+      right:4vh; 
+      bottom:4vh;
+    }
 }
 
 
 /*oniste logo timing*/
 
-@-webkit-keyframes onsite-animation{
-	0% {opacity:0;}
-	34% {opacity:0;}
-	35% {opacity:1;}
-	60% {opacity:1;}
-	61% {opacity: 0;}
-	100% {opacity:0;}
-}
-
-@keyframes onsite-animation{
-	0% {opacity:0;}
-	34% {opacity:0;}
-	35% {opacity:1;}
-	60% {opacity:1;}
-	61% {opacity: 0;}
-	100% {opacity:0;}
+@-webkit-keyframes onsite-animation {
+	0% {
+      opacity: 0;
+    }
+	34% {
+      opacity: 0;
+    }
+	35% {
+      opacity: 1;
+    }
+	60% {
+      opacity: 1;
+    }
+	61% {
+      opacity: 0;
+    }
+	100% {
+      opacity:0;
+    }
 }
 
 
