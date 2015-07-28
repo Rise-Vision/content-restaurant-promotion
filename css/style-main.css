@@ -34,7 +34,7 @@ body {
 /*TEXT ELEMENTS*/
 .header {
   	color:#B5BD00;
-	font-size: 6vw;
+	font-size: 5.5vw;
 	line-height: 7vw;
 	font-weight: 700;
 	letter-spacing: .3vw;
@@ -65,9 +65,9 @@ body {
 /*Bounce Animation Control*/
 .slides:nth-of-type(1n) {
 	position: absolute;
-	top: 20vh;
+	top: 35vh;
     left: 5vw;
-    width: 45vw;
+    width: 50vw;
 	height: 30vw;
 	z-index: 5;
 	opacity: 0;
@@ -80,7 +80,7 @@ body {
 
 .slides:nth-of-type(3n) {
 	position: absolute;
-	top: 20vh;
+	top: 35vh;
     left: 5vw;
     width: 50vw;
 	height: 30vw;
