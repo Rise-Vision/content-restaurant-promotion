@@ -1,0 +1,178 @@
+html, body {
+	width:100%;
+	height:100%;
+	margin: 0px;
+	overflow: hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+	color:white;
+	background-color:#fff;
+	z-index: 99;
+}
+
+/* LOGO */
+#logo-container{
+	position:absolute;
+	left:5vw;
+	top:5vh;
+	z-index: 6;
+	margin:0;
+}
+
+#logo-container img{
+	width:10vw;
+	-webkit-animation: flipInX 1s ease 1;
+	-webkit-animation-fill-mode: forwards;
+	 /* Hey browser, use your GPU */
+   	-webkit-transform: translate3d(0, 0, 0);
+}
+
+/*TEXT ELEMENTS*/
+.header {
+  	color:#B5BD00;
+	font-size: 6vw;
+	line-height: 7vw;
+	font-weight: 700;
+	letter-spacing: .3vw;
+	text-transform: uppercase;
+}
+
+.subheader {
+	color:#B5BD00;
+	font-size: 4vw;
+	line-height: 1;
+	margin: 0;
+	margin-bottom: 2vh;
+	padding: 0;
+}
+
+.body {
+  color:#636363;
+	font-size: 3vw;
+	font-weight: 300;
+	line-height: 1.1;
+	color:#777;
+	margin: 0;
+	padding: 0;
+	width:55%;
+
+}
+
+/*Bounce Animation Control*/
+.slides:nth-of-type(1n) {
+	position: absolute;
+	top: 20vh;
+    left: 5vw;
+    width: 45vw;
+	height: 30vw;
+	z-index: 5;
+	opacity: 0;
+	-webkit-animation: lightSpeedIn1 20s 1s ease infinite;
+	-webkit-animation-fill-mode: forwards;
+
+	 /* Hey browser, use your GPU */
+   	-webkit-transform: translate3d(0, 0, 0);
+}
+
+.slides:nth-of-type(3n) {
+	position: absolute;
+	top: 20vh;
+    left: 5vw;
+    width: 50vw;
+	height: 30vw;
+	z-index: 5;
+	opacity: 0;
+	-webkit-animation: lightSpeedIn1 20s 11s ease infinite;
+	-webkit-animation-fill-mode: forwards;
+	
+	 /* Hey browser, use your GPU */
+   	-webkit-transform: translate3d(0, 0, 0);
+}
+
+.slides:nth-of-type(2n) {
+  display: none;
+}
+
+@media only screen and (max-width: 1280px) {
+	    .slides {
+			margin-top: 5vh;
+	    }
+	}
+
+/* DOCTOR IMAGES */
+#background1{
+	position:absolute;
+	left:0vw;
+	top:0vh;
+	z-index: 0;
+}
+
+#background1 img{
+	position:absolute;
+	height:100vh;
+	top:0vh;
+	left:0vw;
+	opacity: 0;
+	-webkit-animation: fadeIn1 20s 1s ease infinite;
+	-webkit-animation-fill-mode: forwards;
+	 /* Hey browser, use your GPU */
+   	-webkit-transform: translate3d(0, 0, 0);
+}
+
+#background2{
+	position:absolute;
+	left:0vw;
+	top:0vh;
+	z-index: 0;
+}
+
+#background2 img{
+	position:absolute;
+	height:100vh;
+	top:0vh;
+	left:0vw;
+	opacity: 0;
+	-webkit-animation: fadeIn1 20s 11s ease infinite;
+	-webkit-animation-fill-mode: forwards;
+	 /* Hey browser, use your GPU */
+   	-webkit-transform: translate3d(0, 0, 0);
+}
+	
+/* Footer Icons */
+#github {
+	position:absolute;
+	 width:50vw;
+	 height:4vh;
+	 left:10vw;
+	 top:91vh;
+	 z-index:4;
+}
+
+#gitbtn {
+	color:white;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
+	text-decoration: none;
+	font-size:3.6vh;
+	opacity:.5;
+}
+
+#rise {
+	opacity:.5;
+	width:5vw;
+	height:4vh;
+	left:6vw;
+	top:91vh;
+	z-index:5;
+	margin-left:-1vw;
+	position:absolute;
+	z-index:5;
+}
+
+#risebtn {
+    width:auto; 
+    height:100%;   
+}

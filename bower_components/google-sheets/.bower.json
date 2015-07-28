@@ -41,6 +41,5 @@
   },
   "_source": "git://github.com/GoogleWebComponents/google-sheets.git",
   "_target": "~0.0.4",
-  "_originalSource": "GoogleWebComponents/google-sheets",
-  "_direct": true
+  "_originalSource": "GoogleWebComponents/google-sheets"
 }

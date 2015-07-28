@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset=utf-8 />
 <!-- *** HTML Template Meta *** -->
@@ -25,89 +25,85 @@
 <meta property="og:image" content="http://goo.gl/KXsGHg" />
 <meta property="og:description" content="The Restaurant Promotion Template was created to display a series of animated promotions that can be modified to accommodate your specific message." />
 
-<!-- Style Sheet -->
-<link rel="stylesheet" type="text/css" href="style.css">
+<!--Style Sheet-->
+<link rel="stylesheet" href="css/style-main.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="css/animate.css" media="screen" type="text/css" />
+	
+<!--Fav Icon-->
+<link rel="shortcut icon" href="http://rise-vision.github.io/content-hospital/favicon.ico" />
     
-<!-- Fav Icon -->
-<link rel="shortcut icon" href="https://rise-vision.github.io/content-templates/favicon.ico" />
-
-<!-- Font -->
-<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<!--Fonts-->
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!--Web Components-->    
 <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
 <link rel="import" href="bower_components/google-sheets/google-sheets.html">
 <link rel="import" href="bower_components/polymer/polymer.html">
-
 </head>
-<body>
 
-	<div class="main-wrapper">
+<body unresolved>
+	
+<!--LOGO-->
+<div id="logo-container">
+	<img src="images/logo-onthego.png"/>
+</div>
 
-		 <!-- Published Spreadsheet Details -->
-			<google-sheets id="sheet" 
-			               key="1orUHfkuPKI8alfmN7KmZbIGOoOWEWsker4LtjEOzb5M"
-			               gid="0"
-			               rows="{{rows}}"
-			               published>
-			</google-sheets>
-
-		<!--Text Transition-->  
+<!--TEXT CONTENT-->
+<!-- Published Spreadsheet Details -->
+<google-sheets id="sheet" 
+               key="1orUHfkuPKI8alfmN7KmZbIGOoOWEWsker4LtjEOzb5M"
+               gid="0"
+               rows="{{rows}}"
+               published>
+</google-sheets>
+ 
+<!--Text Transition-->  
 <div  id="content">
 
 <!--Information collected from google sheet-->
     <main layout horizontal>
-
-
          <section>
-
              <template id="rows" bind>
 
 <!-- Information from Spreadsheet Rows -->
                 <template repeat="{{rows}}">
                     <div class="slides">
-                        <h2 class="headline-1">{{gsx$header.$t}}</h2>
-                        <h2 class="headline-2">{{gsx$subheader.$t}}</h2>
-                        <p class="body-text">{{gsx$body.$t}}</p>
+                        <span class="header">{{gsx$header.$t}}</span><br/>
+                        <span class="subheader">{{gsx$subheader.$t}}</span><br/>
+                        <span class="body">{{gsx$body.$t}}</span>
                     </div>
                  </template>
             </template>
-
         </section>
-
     </main>
 </div>
 
-		
-		<div class="image-1">
-		</div>
-		
-		<div class="image-2">
-		</div>
-		
-		<div class="image-3">
-		</div>
-
-		<div class="logo">
-		</div>
-
-		<div class="logo-onsite">
-		</div>
-
-		<a href="">
-			<div class="rise-logo">
-			</div>
-		</a>
-
-		<!--Github Icon-->
-		<div class="github">
-		    <a type="button" class="gitbtn" href="http://github.com/Rise-Vision/content-templates/tree/master/events" target="_blank">Contribute <i class="fa fa-github fa-lg "></i></a>
-		</div>	
-
-	</div> <!-- close main-wrapper -->
+<!--BACKGROUND IMAGES -->
+<div id="background1">
+	<img src="images/background-1.jpg"/>
+</div>
 	
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="script.js"></script>
+<div id="background2">
+	<img src="images/background-2.jpg"/>
+</div>
+
+
+
+<!--Footer Icons-->
+<!--Github Icon-->
+<div id="github">
+    <a type="button" id="gitbtn" href="https://github.com/Rise-Vision/content-restaurant-promotion" target="_blank"><i class="fa fa-github fa-lg "></i></a>
+</div>
+    
+<!--Rise Icon-->
+<div id="rise">
+    <a href="http://www.risevision.com/" target="_blank"><img id="risebtn" src="images/rise-icon.png"/></a>
+</div>
+	
+<!--SCRIPTS-->
+<script src='js/jquery.js'></script>
+<script src="js/google-sheets.js"></script>
+	
+</body> 
 </html>
