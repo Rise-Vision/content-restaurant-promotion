@@ -27,35 +27,35 @@ body {
 	width:10vw;
 	-webkit-animation: flipInX 1s ease 1;
 	-webkit-animation-fill-mode: forwards;
-	 /* Hey browser, use your GPU */
-   	-webkit-transform: translate3d(0, 0, 0);
+    /* Hey browser, use your GPU */
+    -webkit-transform: translate3d(0, 0, 0);
 }
 
 /*TEXT ELEMENTS*/
-.header {
-  	color:#B5BD00;
-	font-size: 5.5vw;
-	line-height: 7vw;
+.text1 {
+  	color:#c41443;
+	font-size: 5.4vw;
+	line-height: 6.75vw;
 	font-weight: 700;
-	letter-spacing: .3vw;
+	letter-spacing: .1vw;
 	text-transform: uppercase;
 }
 
-.subheader {
+.text2 {
 	color:#B5BD00;
-	font-size: 4vw;
-	line-height: 1;
+	font-size: 5.4vw;
+	line-height: 6.75vw;
+    font-weight: 700;
 	margin: 0;
 	margin-bottom: 2vh;
 	padding: 0;
 }
 
-.body {
-  color:#636363;
-	font-size: 3vw;
-	font-weight: 300;
-	line-height: 1.1;
-	color:#777;
+.text3 {
+  color:#c41443;
+	font-size: 5.4vw;
+	font-weight: 700;
+	line-height: 6.75vw;
 	margin: 0;
 	padding: 0;
 	width:55%;
@@ -65,10 +65,10 @@ body {
 /*Bounce Animation Control*/
 .slides:nth-of-type(1n) {
 	position: absolute;
-	top: 35vh;
+	top: 26vh;
     left: 5vw;
-    width: 50vw;
-	height: 30vw;
+    width: 45vw;
+	height: 48vh;
 	z-index: 5;
 	opacity: 0;
 	-webkit-animation: lightSpeedIn1 20s 1s ease infinite;
@@ -78,12 +78,12 @@ body {
    	-webkit-transform: translate3d(0, 0, 0);
 }
 
-.slides:nth-of-type(3n) {
-	position: absolute;
-	top: 35vh;
+.slides:nth-of-type(2n) {
+  position: absolute;
+	top: 26vh;
     left: 5vw;
     width: 50vw;
-	height: 30vw;
+	height: 48vh;
 	z-index: 5;
 	opacity: 0;
 	-webkit-animation: lightSpeedIn1 20s 11s ease infinite;
@@ -91,10 +91,6 @@ body {
 	
 	 /* Hey browser, use your GPU */
    	-webkit-transform: translate3d(0, 0, 0);
-}
-
-.slides:nth-of-type(2n) {
-  display: none;
 }
 
 @media only screen and (max-width: 1280px) {
